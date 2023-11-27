@@ -17,7 +17,7 @@ public class Calculadora {
         System.out.print("Digite o número da operação desejada: ");
         int escolha = scanner.nextInt();
 
-            // Variáveis para armazenar os números inseridos pelo usuário
+            // Variáveis para armazenar os números inseridos pelos usuários
             int numero1, numero2, resultado;
 
             switch (escolha) {
