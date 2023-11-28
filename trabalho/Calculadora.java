@@ -39,12 +39,12 @@ public class Calculadora {
                     System.out.printf("A subtração entre %d e %d é igual a %d.%n", numero1, numero2, resultado);
                     break;
     
-                case 3: // multiplicação
+                case 3: // Multiplicação
                 System.out.println("Digite o primeiro número: ");
                     numero1 = scanner.nextInt();
                     System.out.println("Digite o segundo número: ");
                     numero2 = scanner.nextInt();
-                    resultado = numero1 - numero2;
+                    resultado = numero1 * numero2;
                     System.out.printf("A multiplicação entre %d e %d é igual a %d.%n", numero1, numero2, resultado);
                     break;
 
