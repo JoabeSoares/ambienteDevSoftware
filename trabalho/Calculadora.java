@@ -39,7 +39,16 @@ public class Calculadora {
                     System.out.printf("A subtração entre %d e %d é igual a %d.%n", numero1, numero2, resultado);
                     break;
     
-                // Adicione casos para multiplicação (3) e divisão (4) aqui
+                case 3: // multiplicação
+                System.out.println("Digite o primeiro número: ");
+                    numero1 = scanner.nextInt();
+                    System.out.println("Digite o segundo número: ");
+                    numero2 = scanner.nextInt();
+                    resultado = numero1 - numero2;
+                    System.out.printf("A multiplicação entre %d e %d é igual a %d.%n", numero1, numero2, resultado);
+                    break;
+
+                // Adicione casos para divisão (4) aqui
     
                 default:
                     System.out.println("Operação inválida. Por favor, escolha um número de 1 a 4.");
