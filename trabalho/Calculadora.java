@@ -48,7 +48,7 @@ public class Calculadora {
                     System.out.printf("A multiplicação entre %d e %d é igual a %d.%n", numero1, numero2, resultado);
                     break;
 
-                // Adicione casos para divisão (4) aqui
+                // Adicione casos para divisão (4)  aqui
     
                 default:
                     System.out.println("Operação inválida. Por favor, escolha um número de 1 a 4.");
